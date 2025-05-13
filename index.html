@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Landing Page</title>
+    <link href="output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-gradient-to-br from-blue-50 to-purple-100 text-gray-800 font-sans">
+
+    <!-- INICIO -->
+    <section class="min-h-screen flex flex-col items-center justify-center text-center p-8">
+      <img src="fotos/foto-inicio.jpg" alt="Mi foto"
+           class="w-48 h-48 object-cover rounded-full shadow-2xl border-4 border-blue-300 mb-6" />
+      <h1 class="text-4xl font-extrabold text-blue-800 mb-4">Tu Nombre</h1>
+      <p class="text-lg max-w-xl text-gray-700">
+        Aquí va tu biografía. Cuenta quién eres, qué haces o lo que quieras que los visitantes sepan de ti.
+      </p>
+    </section>
+
+    <!-- FOTOS -->
+    <section class="py-14 bg-white">
+      <h2 class="text-3xl font-semibold text-center text-blue-800 mb-10">Mis Fotos</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 px-6">
+        <div class="bg-blue-50 rounded-xl shadow-md overflow-hidden hover:shadow-lg transition duration-300">
+          <img src="fotos/foto1.jpg" alt="Foto 1" class="w-full h-60 object-cover" />
+          <p class="p-4 text-center text-gray-700">Texto que puedes cambiar para esta foto.</p>
+        </div>
+        <div class="bg-blue-50 rounded-xl shadow-md overflow-hidden hover:shadow-lg transition duration-300">
+          <img src="fotos/foto2.jpg" alt="Foto 2" class="w-full h-60 object-cover" />
+          <p class="p-4 text-center text-gray-700">Otro texto editable aquí.</p>
+        </div>
+        <div class="bg-blue-50 rounded-xl shadow-md overflow-hidden hover:shadow-lg transition duration-300">
+          <img src="fotos/foto3.jpg" alt="Foto 3" class="w-full h-60 object-cover" />
+          <p class="p-4 text-center text-gray-700">Descripción para la tercera imagen.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+<section class="py-14 bg-gradient-to-b from-purple-100 to-white">
+  <h2 class="text-3xl font-semibold text-center text-purple-800 mb-8">Contacto</h2>
+  <div class="max-w-md mx-auto bg-white p-8 rounded-xl shadow-lg border border-gray-200 space-y-4 text-center">
+    <p class="text-lg"><strong>📞 Teléfono:</strong> +591 00000000</p>
+    <p class="text-lg"><strong>📧 Correo:</strong> tunombre@ejemplo.com</p>
+    <p class="text-lg"><strong>📍 Ubicación:</strong> Tu ciudad, país</p>
+  </div>
+</section>
+
+  </body>
+</html>
